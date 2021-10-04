@@ -1,0 +1,17 @@
+[package]
+name = "codewars"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+    "count_bits",
+    "balance_braces",
+    "array_diff",
+    "get_vowel_count",
+    "validate_pin",
+]
+
+[dependencies]
